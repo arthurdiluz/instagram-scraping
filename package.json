@@ -1,0 +1,16 @@
+{
+  "name": "instagram-scrapping",
+  "version": "0.0.1",
+  "description": "instagram scrapping bot",
+  "main": "src/index.js",
+  "repository": "https://github.com/arthurdiluz/instagram-scrapping.git",
+  "author": "arthurdiluz <arthurdiluz@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^12.0.0"
+  }
+}
