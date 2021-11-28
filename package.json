@@ -6,11 +6,15 @@
   "repository": "https://github.com/arthurdiluz/instagram-scrapping.git",
   "author": "arthurdiluz <arthurdiluz@outlook.com>",
   "license": "MIT",
-  "private": false,
+  "private": true,
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
   },
   "dependencies": {
     "puppeteer": "^12.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
