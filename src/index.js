@@ -15,6 +15,7 @@ const fs = require('fs');
       // get a node list of all images
       const imgsNodeList = document.querySelectorAll('article img');
 
+      // checks whether there are pictures in the profile
       if (!imgsNodeList.length) throw Error('no picture found');
       
       // transform NodeList in an array (array of elements)
